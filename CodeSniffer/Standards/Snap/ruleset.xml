@@ -27,7 +27,11 @@
  <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
  <rule ref="Squiz.Commenting.FunctionCommentThrowTag"/>
  <rule ref="Squiz.Functions.FunctionDuplicateArgument"/>
- <rule ref="Squiz.PHP.DisallowMultipleAssignments"/>
+ <rule ref="Squiz.PHP.DisallowMultipleAssignments">
+   <properties>
+   <property name="error" value="false"/>
+  </properties>
+ </rule>
  <rule ref="Squiz.PHP.DiscouragedFunctions"/>
  <rule ref="Squiz.PHP.GlobalKeyword"/>
  <rule ref="Squiz.PHP.InnerFunctions"/>
